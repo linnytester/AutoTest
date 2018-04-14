@@ -1,4 +1,19 @@
 [
+
+  {
+    "description":"返回cookies的请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true",
+        "status":"1"
+      },
+      "json":"返回cookies成功"
+    }
+  },
   {
     "description":"模拟一个带cookies的get请求",
     "request":{
@@ -9,7 +24,7 @@
       }
     },
     "response":{
-      "text":"这是一个带cookies的get请求"
+      "json":"这是一个带cookies的get请求"
     }
   },
   {

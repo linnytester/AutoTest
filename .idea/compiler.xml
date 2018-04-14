@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ExentReport" />
+        <module name="HttpClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="Chapter" target="8" />
+      <module name="Chapter" target="1.5" />
       <module name="ExentReport" target="8" />
+      <module name="HttpClient" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,18 +6,9 @@
 
     <groupId>com.auto.course</groupId>
     <artifactId>Chapter</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
-        <module>ExentReport</module>
+        <module>chapter</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.2</version>
-        </dependency>
-    </dependencies>
-
-
 </project>

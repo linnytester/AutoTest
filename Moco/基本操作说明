@@ -1,0 +1,5 @@
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.12.0-standalone.jar http -p 8888 -c startup1.json
+
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.12.0-standalone.jar http -p 8888 -c startupGet.json
+
+java -jar ./moco-runner-0.12.0-standalone.jar http -p 8888 -c startupPost.json

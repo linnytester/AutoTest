@@ -11,6 +11,7 @@
     <modules>
         <module>ExentReport</module>
         <module>HttpClient</module>
+        <module>SpringBoot</module>
     </modules>
     <dependencies>
         <dependency>

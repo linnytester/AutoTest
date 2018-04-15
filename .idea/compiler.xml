@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HttpClient" />
+        <module name="SpringBoot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="Chapter" target="1.5" />
       <module name="ExentReport" target="8" />
       <module name="HttpClient" target="1.5" />
+      <module name="SpringBoot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
